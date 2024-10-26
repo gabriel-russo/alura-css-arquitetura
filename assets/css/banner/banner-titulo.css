@@ -1,10 +1,22 @@
 .banner__titulo {
-  font-family: Pacifico, cursive;
   color: #FDFDFD;
+  font-family: Pacifico, cursive;
   font-size: 5.0625em;
   position: absolute;
-  top: 35%;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
   text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+  top: 35%;
   width: 100%;
+}
+
+@media screen and (max-width: 1210px) {
+  .banner__titulo {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .banner__titulo {
+    font-size: 2.5em;
+  }
 }

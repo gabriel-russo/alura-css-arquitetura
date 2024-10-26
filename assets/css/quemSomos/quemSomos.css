@@ -2,3 +2,9 @@
   text-align: center;
   padding: 5em;
 }
+
+@media screen and (max-width: 382px) {
+  .quem-somos {
+    padding: 5em 2em;
+  }
+}

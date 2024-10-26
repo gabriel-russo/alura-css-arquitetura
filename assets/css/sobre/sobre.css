@@ -2,3 +2,9 @@
   padding: 2.5em;
   text-align: center;
 }
+
+@media screen and (max-width: 1210px) {
+  .sobre {
+    padding: 2.5em 1em;
+  }
+}

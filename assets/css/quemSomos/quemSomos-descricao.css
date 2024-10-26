@@ -3,3 +3,9 @@
   font-size: 1.75em;
   color: #595959;
 }
+
+@media screen and (max-width: 635px) {
+  .quem-somos__descricao {
+    font-size: 1.3em;
+  }
+}

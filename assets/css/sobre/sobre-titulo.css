@@ -3,3 +3,9 @@
   font-family: Pacifico, cursive;
   font-size: 3.1875em;
 }
+
+@media screen and (max-width: 1210px) {
+  .sobre__titulo {
+    font-size: 2em;
+  }
+}

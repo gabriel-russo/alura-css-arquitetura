@@ -3,3 +3,9 @@
   font-size: 1.75em;
   font-weight: 100;
 }
+
+@media screen and (max-width: 1210px) {
+  .sobre__descricao {
+    font-size: 1.3em;
+  }
+}

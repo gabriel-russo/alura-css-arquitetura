@@ -3,3 +3,9 @@
   justify-content: space-around;
   padding-top: 3em;
 }
+
+@media screen and (max-width: 1210px) {
+  .pessoas {
+    flex-direction: column;
+  }
+}
